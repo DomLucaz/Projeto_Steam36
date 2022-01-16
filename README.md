@@ -4,7 +4,7 @@
   <h3>
   <b>Projeto JAVA - STEAM 36</b></br></div>
   <div align = "center">
-  <p>Projeto feito com a linguagem de programação JAVA, proposto pela Generation Brasil. Com o objetivo de simular uma plataforma online de venda de jogos. Sendo o publico alvo qualquer pessoa interessada em jogos de qualquer plataforma (PC, Playstation, Xbox).
+  <p>Projeto feito com a linguagem de programação JAVA proposto pela Generation Brasil. O objetivo deste projeto é simular uma plataforma online de venda de jogos, e o publico alvo são pessoas interessadas em jogos das plataformas mais populares do mundo de jogos eletrônicos como: PC, Playstation, Xbox.
   </p>
   </div>  
   
