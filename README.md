@@ -1,10 +1,10 @@
 <div align = "center">
-  <img width="750px" src="https://i.imgur.com/ho6bdTa.jpg" title="source: imgur.com"/>
+  <img width="1000px" src="https://i.imgur.com/ho6bdTa.jpg" title="source: imgur.com"/>
   <hr>
   <h3>
   <b>Projeto JAVA - STEAM 36</b></br></div>
   <div align = "center">
-  <p>Projeto feito com a linguagem de programação JAVA proposto pela Generation Brasil. O objetivo deste projeto é simular uma plataforma online de venda de jogos, e o publico alvo são pessoas interessadas em jogos das plataformas mais populares do mundo de jogos eletrônicos como: PC, Playstation, Xbox.
+  <p>Projeto feito com a linguagem de programação JAVA, proposto pela Generation Brasil. Com o objetivo de simular uma plataforma online de venda de jogos. Sendo o publico alvo qualquer pessoa interessada em jogos de qualquer plataforma (PC, Playstation, Xbox).
   </p>
   </div>  
   
@@ -15,8 +15,7 @@
   <br><br>
   <img width="750px" src="https://i.imgur.com/bSXwlNQ.jpg"/></div>
 
-</br>
-<hr>
+#
 
 ### **Resultado** 🖥
 * Interface interativa utilizando JOptionPane.
@@ -25,17 +24,16 @@
 * Carrinho de Compras
 * Método de Pagamento
 
-<hr>
+#
 
 ### **Linguagens e Ferramentas** 🛠
-* Java
-* Eclipse IDE
+* Java (Linguagem)
+* Visual Studio Code (IDE)
 * Drawio (Usado para criar o Fluxograma)
 * Canva (Usado para criar Slides da apresentação)
-* Git
+* Git (Controle de Versão)
 
-
-<hr>
+#
 
 ### **Integrantes**
 
@@ -47,3 +45,4 @@
 - Leonardo Imperatori | <a href="https://www.linkedin.com/in/leonardo-imperatori-52a259162/" target="_blank"><img src="https://img.shields.io/badge/-Linkedin-blue" target="_blank"></a> |  <a href="https://github.com/LeozeraImp" target="_blank"><img src="https://img.shields.io/badge/-Github-gray" target="_blank"></a>
 
 <br>
+

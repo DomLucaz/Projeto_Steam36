@@ -1,12 +1,10 @@
-package steam36;
-
 import java.util.*;
 import javax.swing.*;
 
 public class PessoaCadastro{
 
-	/* Atributos Static para n„o precisar criar um Objeto, e n„o 
-	acabar perdendo o valor ao voltar em algum mÈtodo*/
+	/* Atributos Static para n√£o precisar criar um Objeto, e n√£o 
+	acabar perdendo o valor ao voltar em algum m√©todo*/
 	public static String nome;	
 	public static String usuario;
 	public static String senha;
@@ -17,16 +15,16 @@ public class PessoaCadastro{
 	Scanner ler = new Scanner(System.in);
 	
 	// Contrutor
-	public PessoaCadastro() { // Vazio para podermos implementar no mÈtodo cadastro
+	public PessoaCadastro() { // Vazio para podermos implementar no m√©todo cadastro
 	}
 	
-	// MÈtodos
+	// M√©todos
 	static void cadastro() {	// Implementa dados aos Atributos da PessoaCadastro
 		String a, b, c, d, e;
 		JOptionPane.showMessageDialog(null,"\n ----------------------------------------\n           "
 				+ "CADASTRO\n ----------------------------------------");
 		a = JOptionPane.showInputDialog(" Nome: "); PessoaCadastro.setNome(a);
-		b = JOptionPane.showInputDialog(" Usu·rio: "); PessoaCadastro.setUsuario(b);
+		b = JOptionPane.showInputDialog(" Usu√°rio: "); PessoaCadastro.setUsuario(b);
 		c = JOptionPane.showInputDialog(" Senha: "); PessoaCadastro.setSenha(c);
 		d = JOptionPane.showInputDialog(" Email: "); PessoaCadastro.setEmail(d);
 		e = JOptionPane.showInputDialog(" Data de Nascimento: "); PessoaCadastro.setNascimento(e);
@@ -36,13 +34,13 @@ public class PessoaCadastro{
 		FeedClass.FeedClass1();
 	}
 	
-	static void login() {	// Compara Strings Atributos com as String do mÈtodo para validar login
+	static void login() {	// Compara Strings Atributos com as String do m√©todo para validar login
 		String a, b;
 		int op;
 		
 		JOptionPane.showMessageDialog(null,"\n ----------------------------------------\n              "
 				+ "LOGIN\n ----------------------------------------");
-		a = JOptionPane.showInputDialog(" Usu·rio: ");
+		a = JOptionPane.showInputDialog(" Usu√°rio: ");
 		b = JOptionPane.showInputDialog(" Senha: ");
 		
 		if (a.equals(getUsuario()) && b.equals(getSenha()) ) {	// Compara Strings
@@ -53,16 +51,16 @@ public class PessoaCadastro{
 		else { op = Integer.parseInt(JOptionPane.showInputDialog("\n USUARIO E SENHA INCORRETOS!!\n"
 					+ "\n 1) Tentar novamente"
 					+ "\n 2) Voltar"
-					+ "\n\n OpÁ„o")); 
+					+ "\n\n Op√ß√£o:")); 
 		if (op == 1) { PessoaCadastro.login(); } else { Main.Menu(); }
 		}
 	}
 		
 	static void print() {
 		JOptionPane.showMessageDialog(null,"\n ----------------------------------------\n          "
-				+ "INFORMA«’ES\n ---------------------------------------- "
+				+ "INFORMA√á√ïES\n ---------------------------------------- "
 				+ "\n Nome: "+getNome()+""
-						+ "\n Usu·rio: "+getUsuario()+""
+						+ "\n Usu√°rio: "+getUsuario()+""
 								+ "\n Senha: "+getSenha()+""
 										+ "\n Email: "+getEmail()+""
 												+ "\n Data de Nascimento: "+getNascimento()+"\n\n");
